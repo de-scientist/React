@@ -20,6 +20,7 @@ function updateInterpretation() {
     }
 }
 
+//event listener for the plus button (increment)
 plusButton.addEventListener("click", () => {
     number += 1;
     numberElement.textContent = number;
