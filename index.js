@@ -30,6 +30,6 @@ plusButton.addEventListener("click", () => {
 //event listener for the minus button (decrement)
 minusButton.addEventListener("click", () => {
     number -= 1; //decrease number by 1
-    numberElement.textContent = number;
+    numberElement.textContent = number; // update displayed number
     
 })
