@@ -31,5 +31,5 @@ plusButton.addEventListener("click", () => {
 minusButton.addEventListener("click", () => {
     number -= 1; //decrease number by 1
     numberElement.textContent = number; // update displayed number
-    
+    updateInterpretation(); // refresh interpretation text
 })
