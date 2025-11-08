@@ -35,3 +35,35 @@ h1{
     font-size: bold;
 } 
 
+/* style interpretation text */
+#interpretation {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: #2196f3;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #42a5f5;
+  transform: scale(1.05);
+}
