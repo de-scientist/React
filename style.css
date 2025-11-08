@@ -44,7 +44,7 @@ h1{
 
 
 
-/* Buttons */
+/* style the minus and plus buttons */
 .button-group {
   display: flex;
   justify-content: center;
