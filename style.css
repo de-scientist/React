@@ -27,3 +27,11 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* style number display */
+#number-element {
+    font-size: 3rem;
+    margin: 10px 0;
+    font-size: bold;
+} 
+
