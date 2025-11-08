@@ -4,7 +4,9 @@ const numberElement = document.getElementById("number-element")
 const interpretationElement = document.getElementById("interpretation")
 const minusButton = document.getElementById("minus-button")
 
+//initialize number variable
 let number = 1;
+
 numberElement.textContent = number;
 interpretationElement.textContent = `${number} is an odd number`
 
