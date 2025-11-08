@@ -22,7 +22,7 @@ function updateInterpretation() {
 
 //event listener for the plus button (increment)
 plusButton.addEventListener("click", () => {
-    number += 1;
+    number += 1;  //increase number by 1
     numberElement.textContent = number;
 })
 
