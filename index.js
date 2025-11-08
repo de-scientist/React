@@ -24,9 +24,10 @@ function updateInterpretation() {
 plusButton.addEventListener("click", () => {
     number += 1;  //increase number by 1
     numberElement.textContent = number; //update displayed number
-    updateInterpretation(); 
+    updateInterpretation(); // refresh interpretation text
 })
 
+//event listener 
 minusButton.addEventListener("click", () => {
     number -= 1;
     numberElement.textContent = number;
