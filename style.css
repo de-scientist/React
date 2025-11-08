@@ -1,0 +1,11 @@
+/*add general page setup styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1a73e8, #0f2027 );
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
